@@ -1,0 +1,11 @@
+React
+   ↓
+GET /api/internships
+   ↓
+Node + Express
+   ↓
+MySQL
+   ↓
+Internship Data
+   ↓
+React Cards
