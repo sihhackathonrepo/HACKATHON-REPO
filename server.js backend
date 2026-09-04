@@ -1,0 +1,39 @@
+const express = require("express");
+const cors = require("cors");
+
+const app = express();
+
+app.use(cors());
+app.use(express.json());
+
+app.get("/", (req, res) => {
+  res.json({
+    message: "CareerBridge Backend Running"
+  });
+});
+
+app.get("/api/internships", (req, res) => {
+
+  const internships = [
+    {
+      id: 1,
+      company: "TCS",
+      role: "Java Developer Intern",
+      stipend: 15000,
+      location: "Noida"
+    },
+    {
+      id: 2,
+      company: "Microsoft",
+      role: "Software Engineer Intern",
+      stipend: 30000,
+      location: "Hyderabad"
+    }
+  ];
+
+  res.json(internships);
+});
+
+app.listen(5000, () => {
+  console.log("Server running on port 5000");
+});
