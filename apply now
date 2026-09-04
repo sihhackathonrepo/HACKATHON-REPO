@@ -1,0 +1,11 @@
+Student clicks Apply
+        ↓
+POST /api/applications
+        ↓
+Backend
+        ↓
+MySQL
+        ↓
+Application Saved
+        ↓
+"Application Submitted" 
