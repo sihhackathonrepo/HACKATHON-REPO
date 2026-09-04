@@ -1,0 +1,38 @@
+1. Authentication
+   ├── Student Login
+   ├── Company Login
+   └── Admin Login
+
+2. Student
+   ├── Profile
+   ├── Skills
+   ├── Resume
+   └── Applications
+
+3. Company
+   ├── Company Profile
+   ├── Post Internship
+   ├── Post Job
+   └── View Applicants
+
+4. Skill Mapping
+   ├── Skill Assessment
+   ├── Skill Gap
+   └── Skill Match %
+
+5. Recommendation
+   ├── Recommended Internship
+   ├── Recommended Job
+   └── Recommended Skills
+
+6. College
+   ├── Students
+   ├── Placements
+   └── Analytics
+
+7. Admin
+   ├── Users
+   ├── Companies
+   ├── Jobs
+   ├── Internships
+   └── Reports
